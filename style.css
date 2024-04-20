@@ -71,12 +71,13 @@ font-size: 2vw;
 	
 }
 .main-content .button-area {
-	display: grid;
+	display: inline-flex;
     size: contain;
+    width: 60%;
 	place-items: left;
 	margin-top: -5vh;
     margin-left: 5vw;
-	padding: 10px 0;
+	padding: 10px 10px;
     position: absolute;
     bottom: 20;
 
@@ -90,7 +91,7 @@ font-size: 2vw;
     cursor: pointer;
     border: none;
     outline: none;
-    padding: 10px 15px; 
+    padding: 10px 20px; 
     
 }
 .button-area button:active {
@@ -100,29 +101,6 @@ font-size: 2vw;
 .button-area .btn button:hover {
     background-color: rgba(56, 104, 224, 0.5);
 }
-    
-#btn3 {
-    margin-left: 20vw;
-    background-color: rgba(38, 38, 38, 0.5);
-    background-color: rgb(38, 38, 38);
-    color: #fff;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    outline: none;
-    padding: 10px 15px; 
-}
-#btn2 {
-    margin-left: 11vw;
-background-color: rgba(38, 38, 38, 0.5);
-background-color: rgb(38, 38, 38);
-color: #fff;
-border-radius: 5px;
-font-size: 16px;
-font-weight: bold;
-cursor: pointer;
-outline: none;
-padding: 10px 15px; 
-}
-
+.btn {
+    padding: 1vh 1vh;
+}   

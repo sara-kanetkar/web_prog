@@ -29,3 +29,6 @@ function seperate(quote) {
     
 
 }
+function sendLink(link) {
+    window.open(link, '_blank');
+}
